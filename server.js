@@ -7,6 +7,7 @@ const fccTesting  = require('./freeCodeCamp/fcctesting.js');
 const app = express();
 
 fccTesting(app); //For FCC testing purposes
+
 app.use('/public', express.static(process.cwd() + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
