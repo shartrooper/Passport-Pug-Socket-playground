@@ -1,37 +1,43 @@
 {
-    "//1": "describes your app and its dependencies",
-    "//2": "https://docs.npmjs.com/files/package.json",
-    "//3": "updating this file will download and update your packages",
-    "author": "http://github.com/JosephLivengood",
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "cors": "^2.8.1",
-        "dotenv": "^8.2.0",
-        "express": "^4.16.1",
-        "nodemon": "^2.0.4",
-        "pug": "^3.0.0"
-    },
-    "description": "Testground Back End QA for websockets, pug template and user auth",
-    "engines": {
-        "node": "^12.0.0"
-    },
-    "keywords": [
-        "node",
-        "glitch",
-        "express",
-        "pug",
-        "passport",
-        "socketio"
-    ],
-    "license": "MIT",
-    "main": "server.js",
-    "name": "fcc-advanced-node-and-express",
-    "repository": {
-        "type": "git",
-        "url": "https://glitch.com/#!/project/welcome-project"
-    },
-    "scripts": {
-        "start": "nodemon -r dotenv/config server.js"
-    },
-    "version": "0.0.1"
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "author": "http://github.com/JosephLivengood",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "passport": "^0.4.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.29",
+    "passport-local": "^1.0.0",
+    "bcrypt": "^5.0.0"
+  },
+  "description": "Testground Back End QA for websockets, pug template and user auth",
+  "engines": {
+    "node": "^12.0.0"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "pug",
+    "passport",
+    "socketio"
+  ],
+  "license": "MIT",
+  "main": "server.js",
+  "name": "fcc-advanced-node-and-express",
+  "repository": {
+    "type": "git",
+    "url": "https://glitch.com/#!/project/welcome-project"
+  },
+  "scripts": {
+    "start": "nodemon -r dotenv/config server.js"
+  },
+  "version": "0.0.1"
 }
